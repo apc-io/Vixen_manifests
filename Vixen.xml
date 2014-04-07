@@ -123,23 +123,6 @@
   <project path="system/netd" name="platform/system/netd"/>
   <project path="system/security" name="platform/system/security"/>
   <project path="system/vold" name="platform/system/vold"/>
-
-  <!-- flatfish specific things -->
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a"/>
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon"/>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
-  <project path="device/allwinner/flatfish" name="device-flatfish" remote="b2g" revision="master"/>
-
-  <!-- bluez -->
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="b2g/jb_mr1_rb2.17"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="b2g/jb_mr1_rb2.17"/>
-
-  <!-- allwinner things -->
-  <project path="device/common" name="flatfish-device_common" remote="allwinner" revision="master"/>
-  <project path="frameworks/native" name="flatfish-frameworks_native" remote="allwinner" revision="master"/>
-  <project path="hardware/libhardware" name="flatfish-hardware_libhardware" remote="allwinner" revision="master"/>
-  <project path="device/allwinner/common" name="flatfish-device_allwinner_common" remote="allwinner" revision="master"/>
   
   <!-- Vixen things -->
   <project path="build" name="Vixen-build" remote="apc-io" revision="master"/>
