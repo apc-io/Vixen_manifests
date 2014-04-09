@@ -19,9 +19,6 @@
            sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">
-    <copyfile src="core/root.mk" dest="Makefile"/>
-  </project>
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="mozillaorg" revision="master" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
@@ -102,7 +99,6 @@
   <project path="external/webrtc" name="platform/external/webrtc"/>
   <project path="external/yaffs2" name="platform/external/yaffs2"/>
   <project path="external/zlib" name="platform/external/zlib"/>
-  <project path="frameworks/av" name="platform/frameworks/av"/>
   <project path="frameworks/base" name="platform/frameworks/base"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm"/>
@@ -116,23 +112,26 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"/>
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools"/>
-  <project path="system/bluetooth" name="platform/system/bluetooth"/>
-  <project path="system/core" name="platform_system_core" remote="b2g" revision="b2g-4.2.2_r1"/>
-  <project path="system/extras" name="platform/system/extras"/>
-  <project path="system/media" name="platform/system/media"/>
-  <project path="system/netd" name="platform/system/netd"/>
-  <project path="system/security" name="platform/system/security"/>
-  <project path="system/vold" name="platform/system/vold"/>
-  
+
   <!-- Vixen things -->
-  <project path="build" name="Vixen-build" remote="apc-io" revision="master"/>
+  <project path="build" name="Vixen-build" remote="apc-io" revision="master">
+	<copyfile src="core/root.mk" dest="Makefile"/>
+  </project>
   <project path="device/wmt" name="Vixen-device_wmt" remote="apc-io" revision="master"/>
-  <project path="external" name="Vixen-external" remote="apc-io" revision="master"/>
   <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="master"/>
   <project path="hardware/libhardware/modules/ARM_gralloc" name="Vixen-hardware_libhardware_modules_ARM_gralloc" remote="apc-io" revision="master"/>
   <project path="hardware/libhardware/modules/hwcomposer" name="Vixen-hardware_libhardware_modules_hwcomposer" remote="apc-io" revision="master"/>
   <project path="hardware/wmt" name="Vixen-hardware_wmt" remote="apc-io" revision="master"/>
   <project path="system" name="Vixen-system" remote="apc-io" revision="master"/>
-  
+  <project path="external/wpa_supplicant_8" name="Vixen-external_wpa_supplicant_8" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_bcm" name="Vixen-external_wpa_supplicant_8_bcm" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_eagle" name="Vixen-external_wpa_supplicant_8_eagle" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_mtk5931" name="Vixen-external_wpa_supplicant_8_mtk5931" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_mtk6620" name="Vixen-external_wpa_supplicant_8_mtk6620" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_mtk7601" name="Vixen-external_wpa_supplicant_8_mtk7601" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_nmi1000" name="Vixen-external_wpa_supplicant_8_nmi1000" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_rtl8192c" name="Vixen-external_wpa_supplicant_8_rtl8192c" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
+
 
 </manifest>
