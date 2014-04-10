@@ -122,6 +122,7 @@
   <project path="hardware/libhardware/modules/hwcomposer" name="Vixen-hardware_libhardware_modules_hwcomposer" remote="apc-io" revision="master"/>
   <project path="hardware/wmt" name="Vixen-hardware_wmt" remote="apc-io" revision="master"/>
   <project path="system" name="Vixen-system" remote="apc-io" revision="master"/>
+  <project path="external/wpa_supplicant_8" name="Vixen-external_wpa_supplicant_8" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
 
 
