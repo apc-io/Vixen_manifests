@@ -118,11 +118,11 @@
   <!-- Vixen things -->
   <project path="device/wmt" name="Vixen-device_wmt" remote="apc-io" revision="master"/>
   <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="master"/>
-  <project path="hardware/libhardware/modules/ARM_gralloc" name="Vixen-hardware_libhardware_modules_ARM_gralloc" remote="apc-io" revision="master"/>
-  <project path="hardware/libhardware/modules/hwcomposer" name="Vixen-hardware_libhardware_modules_hwcomposer" remote="apc-io" revision="master"/>
+  <project path="hardware/libhardware" name="Vixen-hardware_libhardware" remote="apc-io" revision="master"/>
+  <project path="hardware/libhardware_legacy" name="Vixen-hardware_libhardware_legacy" remote="apc-io" revision="master"/>
   <project path="hardware/wmt" name="Vixen-hardware_wmt" remote="apc-io" revision="master"/>
   <project path="system" name="Vixen-system" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8" name="Vixen-external_wpa_supplicant_8" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
-
+  <project path="external/libyuv" name="Vixen-external_libyuv" remote="apc-io" revision="master"/>
 </manifest>
