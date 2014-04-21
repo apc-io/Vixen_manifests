@@ -40,7 +40,6 @@
   <project path="device/sample" name="device/sample"/>
   <project path="abi/cpp" name="platform/abi/cpp"/>
   <project path="bionic" name="platform/bionic"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery"/>
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
@@ -104,7 +103,6 @@
   <project path="frameworks/native" name="platform/frameworks/native"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm"/>
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
   <project path="libcore" name="platform/libcore"/>
   <project path="libnativehelper" name="platform/libnativehelper"/>
@@ -116,6 +114,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools"/>
 
   <!-- Vixen things -->
+  <project path="bootable/recovery" name="Vixen-bootable_recovery" remote="apc-io" revision="master"/>
   <project path="device/wmt" name="Vixen-device_wmt" remote="apc-io" revision="master"/>
   <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="master"/>
   <project path="hardware/libhardware" name="Vixen-hardware_libhardware" remote="apc-io" revision="master"/>
