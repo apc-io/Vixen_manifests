@@ -119,9 +119,11 @@
   <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="master"/>
   <project path="hardware/libhardware" name="Vixen-hardware_libhardware" remote="apc-io" revision="master"/>
   <project path="hardware/libhardware_legacy" name="Vixen-hardware_libhardware_legacy" remote="apc-io" revision="master"/>
+  <project path="hardware/realtek" name="Vixen-hardware_realtek" remote="apc-io" revision="master"/>
   <project path="hardware/wmt" name="Vixen-hardware_wmt" remote="apc-io" revision="master"/>
   <project path="system" name="Vixen-system" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8" name="Vixen-external_wpa_supplicant_8" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
   <project path="external/libyuv" name="Vixen-external_libyuv" remote="apc-io" revision="master"/>
+  <project path="external/external_bluetooth" name="Vixen-external_bluetooth" remote="apc-io" revision="master"/>
 </manifest>
