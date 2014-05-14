@@ -114,8 +114,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools"/>
 
   <!-- Vixen things -->
+  <project path="device/via/vixen" name="device-vixen" remote="apc-io" revision="master"/>
   <project path="bootable/recovery" name="Vixen-bootable_recovery" remote="apc-io" revision="master"/>
-  <project path="device/via" name="Vixen-device_via" remote="apc-io" revision="master"/>
+  <project path="device/via/common" name="Vixen-device_via_common" remote="apc-io" revision="master"/>
   <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="master"/>
   <project path="hardware/libhardware" name="Vixen-hardware_libhardware" remote="apc-io" revision="master"/>
   <project path="hardware/libhardware_legacy" name="Vixen-hardware_libhardware_legacy" remote="apc-io" revision="master"/>
