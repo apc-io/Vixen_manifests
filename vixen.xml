@@ -112,6 +112,15 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"/>
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools"/>
+  <project path="system/bluetooth" name="platform/system/bluetooth"/>
+  <project path="system/security" name="platform/system/security"/>
+  
+  <!-- Vixen system/ -->
+  <project path="system/core" name="platform_system_core" remote="apc-io" revision="master"/>
+  <project path="system/extras" name="platform_system_extras" remote="apc-io" revision="master"/>
+  <project path="system/media" name="platform_system_media" remote="apc-io" revision="master"/>
+  <project path="system/vold" name="platform_system_vold" remote="apc-io" revision="master"/>
+  <project path="system/netd" name="platform_system_netd" remote="apc-io" revision="master"/>
 
   <!-- Vixen things -->
   <project path="device/via/vixen" name="device-vixen" remote="apc-io" revision="master"/>
@@ -122,7 +131,6 @@
   <project path="hardware/libhardware_legacy" name="Vixen-hardware_libhardware_legacy" remote="apc-io" revision="master"/>
   <project path="hardware/realtek" name="Vixen-hardware_realtek" remote="apc-io" revision="master"/>
   <project path="hardware/via" name="Vixen-hardware_via" remote="apc-io" revision="master"/>
-  <project path="system" name="Vixen-system" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8" name="Vixen-external_wpa_supplicant_8" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
   <project path="external/libyuv" name="Vixen-external_libyuv" remote="apc-io" revision="master"/>
