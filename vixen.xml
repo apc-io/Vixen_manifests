@@ -134,5 +134,5 @@
   <project path="external/wpa_supplicant_8" name="Vixen-external_wpa_supplicant_8" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
   <project path="external/libyuv" name="Vixen-external_libyuv" remote="apc-io" revision="master"/>
-  <project path="external/external_bluetooth" name="Vixen-external_bluetooth" remote="apc-io" revision="master"/>
+  <project path="external/bluetooth/bluedroid" name="Vixen-external_bluetooth_bluedroid" remote="apc-io" revision="master"/>
 </manifest>
