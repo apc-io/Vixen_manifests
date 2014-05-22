@@ -99,6 +99,7 @@
   <project path="external/webrtc" name="platform/external/webrtc"/>
   <project path="external/yaffs2" name="platform/external/yaffs2"/>
   <project path="external/zlib" name="platform/external/zlib"/>
+  <project path="external/libyuv" name="platform/external/libyuv"/>
   <project path="frameworks/base" name="platform/frameworks/base"/>
   <project path="frameworks/native" name="platform/frameworks/native"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
@@ -133,6 +134,5 @@
   <project path="hardware/via" name="Vixen-hardware_via" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8" name="Vixen-external_wpa_supplicant_8" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
-  <project path="external/libyuv" name="Vixen-external_libyuv" remote="apc-io" revision="master"/>
   <project path="external/bluetooth/bluedroid" name="Vixen-external_bluetooth_bluedroid" remote="apc-io" revision="master"/>
 </manifest>
