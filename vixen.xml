@@ -138,5 +138,5 @@
   <project path="external/mtk_6622" name="Vixen-external_mtk_6622" remote="apc-io" revision="master"/>
 
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8880-ota" />
+  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8880" />
 </manifest>
