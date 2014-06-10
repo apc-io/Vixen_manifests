@@ -137,5 +137,5 @@
   <project path="external/bluetooth/bluedroid" name="Vixen-external_bluetooth_bluedroid" remote="apc-io" revision="vixen"/>
 
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8880-ota" />
+  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8880" />
 </manifest>
