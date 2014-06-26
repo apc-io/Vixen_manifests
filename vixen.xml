@@ -127,12 +127,12 @@
   <project path="system/netd" name="platform_system_netd" remote="apc-io" revision="vixen"/>
 
   <!-- Vixen things -->
-  <project path="device/via/vixen" name="device-vixen" remote="apc-io" revision="master"/>
+  <project path="device/via/vixen" name="device-vixen" remote="apc-io" revision="rock2"/>
   <project path="bootable/recovery" name="Vixen-bootable_recovery" remote="apc-io" revision="vixen"/>
   <project path="device/via/common" name="Vixen-device_via_common" remote="apc-io" revision="rock2"/>
   <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="vixen"/>
   <project path="hardware/libhardware" name="Vixen-hardware_libhardware" remote="apc-io" revision="vixen"/>
-  <project path="hardware/libhardware_legacy" name="Vixen-hardware_libhardware_legacy" remote="apc-io" revision="vixen"/>
+  <project path="hardware/libhardware_legacy" name="Vixen-hardware_libhardware_legacy" remote="apc-io" revision="rock2"/>
   <project path="hardware/realtek" name="Vixen-hardware_realtek" remote="apc-io" revision="master"/>
   <project path="hardware/via" name="Vixen-hardware_via" remote="apc-io" revision="master"/>
   <project path="external/wpa_supplicant_8_rtl8192c" name="Vixen-external_wpa_supplicant_8_rtl8192c" remote="apc-io" revision="master"/>
