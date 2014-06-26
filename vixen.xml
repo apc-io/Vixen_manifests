@@ -23,8 +23,8 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
-  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="apc8880-dev-2" />
-  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="apc8880-dev" />
+  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="rock2" />
+  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="rock2" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
@@ -127,7 +127,7 @@
   <project path="system/netd" name="platform_system_netd" remote="apc-io" revision="vixen"/>
 
   <!-- Vixen things -->
-  <project path="device/via/vixen" name="device-vixen" remote="apc-io" revision="nmv-dev"/>
+  <project path="device/via/vixen" name="device-vixen" remote="apc-io" revision="nmv-dev_merge"/>
   <project path="bootable/recovery" name="Vixen-bootable_recovery" remote="apc-io" revision="vixen"/>
   <project path="device/via/common" name="Vixen-device_via_common" remote="apc-io" revision="master"/>
   <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="vixen"/>
@@ -140,7 +140,7 @@
   <project path="external/mtk_6622" name="Vixen-external_mtk_6622" remote="apc-io" revision="master"/>
 
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8880"/>
+  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="rock2"/>
   <!-- custom webapps -->
   <project path="gaia/outoftree_apps/prospector" name="Prospector" remote="Codexa" revision="master"/>
 </manifest>
