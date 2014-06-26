@@ -118,8 +118,8 @@
   <project path="system/security" name="platform/system/security"/>
   
   <!-- rock2 gecko/gaia -->
-  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="apc8880-dev-2"/>
-  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="apc8880-dev"/>
+  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="rock2"/>
+  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="rock2"/>
 
   <!-- Vixen system/ -->
   <project path="system/core" name="platform_system_core" remote="apc-io" revision="vixen"/>
@@ -142,7 +142,7 @@
   <project path="external/mtk_6622" name="Vixen-external_mtk_6622" remote="apc-io" revision="master"/>
 
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8880"/>
+  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="rock2"/>
   <!-- custom webapps -->
   <project path="gaia/outoftree_apps/prospector" name="Prospector" remote="Codexa" revision="master"/>
 </manifest>
